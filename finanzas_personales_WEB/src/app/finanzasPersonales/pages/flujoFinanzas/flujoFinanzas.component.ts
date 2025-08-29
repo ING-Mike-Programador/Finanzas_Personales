@@ -5,4 +5,4 @@ import { Component } from '@angular/core';
   imports: [],
   templateUrl: './flujoFinanzas.component.html'
 })
-export class FlujoFinanzasComponent { }
+export default class FlujoFinanzasComponent { }
