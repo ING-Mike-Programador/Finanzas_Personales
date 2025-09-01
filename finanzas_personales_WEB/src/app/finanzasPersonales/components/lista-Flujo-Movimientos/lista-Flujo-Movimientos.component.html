@@ -11,27 +11,14 @@
     </thead>
     <tbody>
       <!-- filas -->
+       @for (fila of lista_Flujo_Mes(); track fila.fecha) {
       <tr>
-        <th>1</th>
-        <td>Cy Ganderton</td>
-        <td>Quality Control Specialist</td>
-        <td>Blue</td>
+        <td>{{fila.fecha}}</td>
+        <td>{{fila.ganancias}}</td>
+        <td>{{fila.gastos}}</td>
+        <td>{{fila.total}}</td>
       </tr>
-
-      <tr>
-        <th>2</th>
-        <td>Hart Hagerty</td>
-        <td>Desktop Support Technician</td>
-        <td>Purple</td>
-      </tr>
-
-      <tr>
-        <th>3</th>
-        <td>Brice Swyre</td>
-        <td>Tax Accountant</td>
-        <td>Red</td>
-      </tr>
-
+    }
     </tbody>
   </table>
 </div>
