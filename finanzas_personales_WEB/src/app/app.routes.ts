@@ -7,7 +7,7 @@ export const routes: Routes = [
     component: HomePageComponent
   },
   {
-    path: 'flujo',
+    path: 'finanzas',
     loadChildren: () => import('./finanzasPersonales/fiananzas.routes')
   },
 {
